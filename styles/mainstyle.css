@@ -2,11 +2,18 @@
     text-align: center;
 }
 
-h1, footer {
+#mainheading, footer {
     background-color: cornflowerblue;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+#mainheading a {
     color: white;
 }
 
 ul, ol {
     list-style-position: inside;
 }
+
