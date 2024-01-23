@@ -1,4 +1,4 @@
-@media(min-width: 650px){
+@media(max-width: 649px){
     * {
         text-align: center;
         background-color: #A8E0FF;
@@ -15,6 +15,7 @@
         background-color: #3E517A;
     }
     #navbar > p {
+        display: none;
         float: left;
         margin-left: 10px;
         color: white;
@@ -23,9 +24,11 @@
         font-size: 25px;
     }
     #navbar > #navoptions {
-        float: right;
+        position: relative;
+        float: left;
         color: white;
-        margin-right: 10px;
+        left: 50%;
+        transform: translate(-50%, 0);
         margin-top: 30px;
     }
     #navbar > #navoptions > a {
@@ -36,12 +39,13 @@
     }
     
     
-    .body {
+    #body {
         position: relative;
         width: 50%;
         left: 50%;
         transform: translate(-50%, 0);
         top: 10px;
+    
         padding: 20px;
     }
     
