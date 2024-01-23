@@ -54,6 +54,10 @@
         padding: 10px;
     }
 
+    li {
+        padding: 10px;
+    }
+    
     #footer {
         position: relative;
         top: 2vh;
